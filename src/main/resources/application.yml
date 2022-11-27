@@ -1,0 +1,21 @@
+# application configuration
+logging:
+  level:
+    root: DEBUG
+    com:
+      netflix:
+        eureka: OFF
+        discovery: OFF
+    org:
+      springframework:
+        cloud: DEBUG
+server:
+  port: ${EUREKA_PORT:8770}
+
+# eureka configuration
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:${server.port}/eureka
