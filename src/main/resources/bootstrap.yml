@@ -1,3 +1,3 @@
 spring:
   application:
-    name: service-discovery-service
+    name: ${MICROSERVICE_NAME:service-discovery-service}
