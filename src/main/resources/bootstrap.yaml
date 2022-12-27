@@ -1,0 +1,2 @@
+spring.application.name: ${MICROSERVICE_NAME:service-discovery-service}
+server.port: ${SERVER_PORT:8770}

@@ -1,16 +1,11 @@
 # application configuration
 logging:
   level:
-    root: DEBUG
     com:
       netflix:
         eureka: OFF
         discovery: OFF
-    org:
-      springframework:
-        cloud: DEBUG
-server:
-  port: ${EUREKA_PORT:8770}
+    org.springframework.cloud: DEBUG
 
 # eureka configuration
 eureka:
