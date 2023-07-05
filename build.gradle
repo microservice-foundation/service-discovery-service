@@ -8,7 +8,7 @@ apply plugin: 'java'
 apply plugin: 'io.spring.dependency-management'
 apply plugin: 'org.springframework.boot'
 
-group 'com.epam.learn'
+group 'com.epam.training'
 version '1.0'
 
 repositories {
