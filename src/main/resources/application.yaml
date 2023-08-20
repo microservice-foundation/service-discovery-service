@@ -1,12 +1,3 @@
-# application configuration
-logging:
-  level:
-    com:
-      netflix:
-        eureka: OFF
-        discovery: OFF
-    org.springframework.cloud: DEBUG
-
 # eureka configuration
 eureka:
   client:
