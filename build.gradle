@@ -28,7 +28,6 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-aop'
     implementation 'org.springframework.cloud:spring-cloud-starter-config'
     implementation "net.logstash.logback:logstash-logback-encoder:${logstashLogbackVersion}"
-    implementation "io.micrometer:micrometer-tracing-bridge-brave:${micrometerVersion}"
     testImplementation'org.springframework.boot:spring-boot-starter-test'
 }
 
